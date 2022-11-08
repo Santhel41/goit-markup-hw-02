@@ -1,3 +1,5 @@
+/* definicion de variables */
+
 :root{
     --blue: #2196F3;
     --black: #212121;
@@ -7,13 +9,18 @@
 
 }
 
+/* Fuente del texto */
 body{
     font-family: 'Roboto', sans-serif;
+    color: var(--black)
 }
 
-nav{
-    display: inline-block;
+/* Barra de navegacion */
+
+header{
+    background: #FFF;
 }
+
 .logo{
     font-family: 'Raleway', sans-serif;
     color: var(--blue);
@@ -21,6 +28,10 @@ nav{
     font-size: 26px;
     text-decoration: none;
     line-height: 31px;
+}
+
+nav{
+    display: inline-block;
 }
 
 li{
@@ -36,24 +47,24 @@ li{
     line-height: 16px;
     
 }
-.menu:hover{
+
+.menu:hover {
     color: var(--blue);
 }
+
 .contacts{
-    color: gray;
+    color: var(--gray);
 }
 
-header{
-    background: white;
-}
+/* Contenedor call to action */
 
 .action-container{
     background: var(--bg);
-    color: white;
+    color: #fff;
     text-align: center;
 }
 
-#main-title{
+.main-title{
     line-height: 60px;
     font-weight: 900;
     font-size: 44px;
@@ -61,13 +72,14 @@ header{
 
 #boton{
     background-color: var(--blue);
-    color: white;
+    color: #fff;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
 
 }
 
+/* Nuestros servicios */
 .title{
     font-weight: 700;
     font-size: 14px;
@@ -81,15 +93,26 @@ header{
     font-weight: 400;
     font-size: 14px;
 }
+/* A que nos dedicamos */
 
+
+/* titutlos */
+h2 {
+    text-align: center;
+}
+
+
+/* Tarjetas de presentación */
 .meet-cards{
     background: #F5F4FA;
 }
 
 .wrp-img{
-    background: white;
+    background: #fff;
 }
 
+
+/* Pide de página */
 .pie{
     background: var(--bg);
     font-style: normal;
@@ -104,8 +127,18 @@ header{
 }
 
 .dir{
-    color: white;
+    color: #fff;
 }
 
 /* Portaflio styles */
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--blue);
+}
+
+.card-products:hover{
+    cursor: pointer;
+}
+
 
