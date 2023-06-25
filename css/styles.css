@@ -48,7 +48,7 @@ li{
     
 }
 
-.menu:hover {
+.menu:hover, .menu:focus {
     color: var(--blue);
 }
 
@@ -76,6 +76,7 @@ li{
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
+    cursor: pointer;
 
 }
 
@@ -132,13 +133,31 @@ h2 {
 
 /* Portaflio styles */
 
-button:hover {
+.nav-boton {
+    padding: 6px 19px;
+    border-radius: 4px;
+    border: 1px;
+    
+    background: #F5F4FA;
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+.nav-boton:hover, .nav-boton:focus {
     cursor: pointer;
     background-color: var(--blue);
-}
+  }
 
 .card-products:hover{
     cursor: pointer;
 }
+
+
+
+
 
 
